@@ -1,0 +1,14 @@
+#welcoming {
+  color: red;
+  text-align: center;
+}
+
+div {
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+body {
+  background-color: grey;
+}
