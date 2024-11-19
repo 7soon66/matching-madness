@@ -9,6 +9,7 @@ p {
 }
 .gudeline-body h1,
 h2 {
+  padding-top: 40px;
   text-align: center;
   margin: 10px;
 }
@@ -34,7 +35,9 @@ h2 {
   flex-direction: column;
   gap: 30px;
   background-color: rgb(101, 101, 177);
-  padding: 50px 80px;
+  padding: 50px 50px;
+  height: 750px;
+  width: 750px;
 }
 
 .reset {
@@ -50,20 +53,22 @@ h2 {
   align-content: space-between;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   width: 500px;
-  height: 600px;
+  height: 700px;
   background-color: red;
   padding: 30px 30px 30px 30px;
 }
 
 .card {
   background-color: blue;
+  text-align: center;
+  font-size: 100px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   transition: transform 3s ease-in-out;
 }
 
@@ -149,4 +154,23 @@ li {
 .message {
   font-size: 60px;
   color: red;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.menuOfLevel2 {
+  padding: 10px 15px;
+  color: blue;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+}
+.timer {
+  background-color: antiquewhite;
+}
+.card.disabled {
+  pointer-events: none;
 }
